@@ -1,17 +1,21 @@
 {
-  "name": "next15-3-test",
+  "name": "fumadocs-starter",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postinstall": "fumadocs-mdx"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.2.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "fumadocs-core": "^15.2.7",
+    "fumadocs-mdx": "^11.6.0",
+    "fumadocs-ui": "^15.2.7",
     "lucide-react": "^0.488.0",
     "next": "15.3.0",
     "react": "^19.0.0",
@@ -22,6 +26,7 @@
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
+    "@types/mdx": "^2.0.13",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
