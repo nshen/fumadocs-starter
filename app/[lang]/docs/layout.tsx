@@ -25,7 +25,6 @@ export default async function Layout({
 }) {
 
   const { lang } = await params;
-  console.log(lang);
 
   return (
 
